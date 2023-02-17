@@ -6,7 +6,7 @@ public class task3 {
         System.out.print("Введите строку для проверки на палидромность: ");
         String user_text = scan.nextLine();
         checkPalodrom(user_text);
-        
+        scan.close();
     }
 
     static void checkPalodrom(String text){
