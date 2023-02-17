@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-02-17T06:55:24.974702700Z</date>
+  <millis>1676616924974</millis>
+  <nanos>702700</nanos>
+  <sequence>0</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Пользователь ввел первое число 10.0</message>
+</record>
+<record>
+  <date>2023-02-17T06:55:26.994818300Z</date>
+  <millis>1676616926994</millis>
+  <nanos>818300</nanos>
+  <sequence>1</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Пользователь ввел второе число 7.0</message>
+</record>
+<record>
+  <date>2023-02-17T06:55:29.051936Z</date>
+  <millis>1676616929051</millis>
+  <nanos>936000</nanos>
+  <sequence>2</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Символ операции -</message>
+</record>
+<record>
+  <date>2023-02-17T06:55:29.064936700Z</date>
+  <millis>1676616929064</millis>
+  <nanos>936700</nanos>
+  <sequence>3</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Результат операции 3.0</message>
+</record>
+</log>
