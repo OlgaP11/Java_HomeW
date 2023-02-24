@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-02-24T07:03:19.645400700Z</date>
+  <millis>1677222199645</millis>
+  <nanos>400700</nanos>
+  <sequence>0</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Пользователь ввел число 5.0</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:21.530417700Z</date>
+  <millis>1677222201530</millis>
+  <nanos>417700</nanos>
+  <sequence>1</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Операция +</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:22.658227700Z</date>
+  <millis>1677222202658</millis>
+  <nanos>227700</nanos>
+  <sequence>2</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Пользователь ввел число 5.0</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:22.658227700Z</date>
+  <millis>1677222202658</millis>
+  <nanos>227700</nanos>
+  <sequence>3</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Результат операции 10.0</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:24.387438400Z</date>
+  <millis>1677222204387</millis>
+  <nanos>438400</nanos>
+  <sequence>4</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Операция *</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:25.391849100Z</date>
+  <millis>1677222205391</millis>
+  <nanos>849100</nanos>
+  <sequence>5</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Пользователь ввел число 5.0</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:25.391849100Z</date>
+  <millis>1677222205391</millis>
+  <nanos>849100</nanos>
+  <sequence>6</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Результат операции 50.0</message>
+</record>
+<record>
+  <date>2023-02-24T07:03:28.862111800Z</date>
+  <millis>1677222208862</millis>
+  <nanos>111800</nanos>
+  <sequence>7</sequence>
+  <logger>task4</logger>
+  <level>INFO</level>
+  <class>task4</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Операция �</message>
+</record>
