@@ -58,7 +58,7 @@ public class NoteBook {
         return color;
     }
 
-    public static HashMap <String, String> createMap (Object o) {
+    public HashMap <String, String> createMap (Object o) {
         var m = (NoteBook) o;
         HashMap <String, String> map = new HashMap<>();
         map.put("model", m.model);
