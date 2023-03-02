@@ -58,14 +58,13 @@ public class NoteBook {
         return color;
     }
 
-    public HashMap <String, String> createMap (Object o) {
-        var m = (NoteBook) o;
+    public HashMap <String, String> createMap (NoteBook n) {
         HashMap <String, String> map = new HashMap<>();
-        map.put("model", m.model);
-        map.put("RAM", m.ram);
-        map.put("HDD", m.hdd);
-        map.put("OS", m.os);
-        map.put("Color", m.color);
+        map.put("model", n.getModel());
+        map.put("RAM", n.getRam());
+        map.put("HDD", n.getHdd());
+        map.put("OS", n.getOs());
+        map.put("Color", n.getColor());
         return map;
     }
 }
