@@ -5,7 +5,7 @@ public class task3 {
     }
     
     public static void mergeSort(int[] arr, int len) {
-        if (len < 2) { // После того, как первый подмассив разделит на массивы в один элемент, перейдет со строки 21 на 24
+        if (len < 2) {
             return;
         }
         int middle = len / 2;
@@ -15,13 +15,13 @@ public class task3 {
         for (int i = 0; i < middle; i++) {
             n[i] = arr[i];
         }
-        for (int i = middle; i < len; i++) { // Берем с середины, чтобы пройтись по первонач массиву
-            r[i - middle] = arr[i]; // Для r вычетаем из i середину, чтобы по его индексам пройтись
+        for (int i = middle; i < len; i++) {
+            r[i - middle] = arr[i];
         }
-        mergeSort(n, middle); 
+        mergeSort(n, middle);
         mergeSort(r, len - middle);
     
-        merge(arr, n, r, middle, len - middle); // Вначале соберет первый массив и распечатает, затем перейдет на стр 22
+        merge(arr, n, r, middle, len - middle);
         
         for (int i = 0; i < arr.length; i++) {
             System.out.printf("%d ", arr[i]);
@@ -32,15 +32,15 @@ public class task3 {
     public static void merge(int[] arr, int[] n, int[] r, int nLen, int rLen) {
  
         int i = 0, j = 0, k = 0;
-        while (i < nLen && j < rLen) {// Проверка, какое больше значение. Ограничение длина одного из текущих массивов
+        while (i < nLen && j < rLen) {
             if (n[i] <= r[j]) {
                 arr[k++] = n[i++];
             }
             else {
                 arr[k++] = r[j++];
             }
-        } 
-        while (i < nLen) { // Добавление хвостов
+        }
+        while (i < nLen) {
             arr[k++] = n[i++];
         }
         while (j < rLen) {
